@@ -14,11 +14,11 @@ int main(){
     char codigo1[4];
     char nomedacidade1[20];
     int populacao1;
-    double area1;
-    double pib1;
+    float area1;
+    float pib1;
     int numerodepontosturisticos1;
-    double densidade1;
-    double pibpercapita1;
+    float densidade1;
+    float pibpercapita1;
         
     // cidade 2
       
@@ -26,11 +26,11 @@ int main(){
     char codigo2[4];
     char nomedacidade2[20];
     int populacao2;
-    double area2;
-    double pib2;
+    float area2;
+    float pib2;
     int numerodepontosturisticos2;
-    double densidade2;
-    double pibpercapita2;
+    float densidade2;
+    float pibpercapita2;
               
     // Área para entrada de dados
 
@@ -49,10 +49,10 @@ int main(){
     scanf("%d", &populacao1);
 
     printf("Digite quantos quilômetros quadrados tem a primeira cidade: \n");
-    scanf("%lf", &area1);
+    scanf("%f", &area1);
 
     printf("Digite o PIB da primeira cidade: \n");
-    scanf("%lf", &pib1);
+    scanf("%f", &pib1);
 
     printf("Digite a quantidade de pontos turísticos da primeira cidade: \n");
     scanf("%d", &numerodepontosturisticos1);
@@ -81,10 +81,10 @@ int main(){
     scanf("%d", &populacao2);
 
     printf("Digite quantos quilômetros quadrados tem a segunda cidade: \n");
-    scanf("%lf", &area2);
+    scanf("%f", &area2);
 
     printf("Digite o PIB da segunda cidade: \n");
-    scanf("%lf", &pib2);
+    scanf("%f", &pib2);
 
     printf("Digite a quantidade de pontos turísticos da segunda cidade: \n");
     scanf("%d", &numerodepontosturisticos2);
@@ -124,4 +124,4 @@ int main(){
     return 0;
 
 
-    }a
+    }
